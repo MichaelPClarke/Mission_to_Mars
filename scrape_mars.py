@@ -110,7 +110,8 @@ def scrape():
         "Mars News Details": news_p,
         "Latest Mars Image": featured_image_url,
         "Latest Mars Weather": mars_weather,
-        "Hemisphere Images": hemisphere_image_urls}
+        "Hemisphere Images": hemisphere_image_urls
+        }
     print(mars_data)
     
 
@@ -118,4 +119,4 @@ def scrape():
         
     
     return mars_data
-scrape()
+#scrape()
